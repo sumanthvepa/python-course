@@ -1,0 +1,21 @@
+{
+  "name": "tictactoe-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Jupyter notebook embedable user interface for a tic-tac-toe game. ",
+  "keywords": [
+    "html",
+    "css",
+    "cssgrid"
+  ],
+  "author": "Sumanth Vepa",
+  "license": "GPL-3.0+",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "html5-boilerplate": "^9.0.1",
+    "http-server": "^14.1.1"
+  }
+}

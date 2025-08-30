@@ -1,0 +1,37 @@
+.game {
+  width: 75%;
+} 
+
+.board {
+  background-color: var(--secondary-background-color);
+  aspect-ratio: 1 / 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.cell {
+  background: var(--background-color);
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.cell svg {
+  display: block;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+
+svg .blank {
+  fill: var(--background-color);
+}
+svg .cross {
+  fill: var(--secondary-accent-color);
+}
+svg .nought-outer {
+  fill: var(--secondary-accent-color);
+}
+svg .nought-inner {
+  fill: var(--background-color);
+}
