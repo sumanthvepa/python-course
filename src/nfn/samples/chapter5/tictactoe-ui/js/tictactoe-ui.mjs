@@ -1,4 +1,5 @@
-let currentPlayer = "cross";
+let startingPlayer = "cross"
+let currentPlayer = startingPlayer;
 
 function boardState() {
   const cells = Array.from(document.querySelectorAll(".cell"));
@@ -96,7 +97,8 @@ function clearGameOverOverlay() {
   overlay.classList.remove("overlay-active");
   overlay.textContent = "";
   resetBoard();
-  currentPlayer = "cross";
+  startingPlayer = startingPlayer === "cross" ? "nought" : "cross";
+  currentPlayer = startingPlayer;
 }
 
 
