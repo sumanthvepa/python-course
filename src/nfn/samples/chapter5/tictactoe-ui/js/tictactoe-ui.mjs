@@ -1,5 +1,5 @@
 /**
- * @module tictactoe-ui2
+ * @module tictactoe-ui
  * @file Entrypoint for the Tic Tac Toe UI application.
  * @version 1.0.0
  * 
@@ -15,7 +15,7 @@
  * @license GPL-3.0-or-later
  */
 /* -------------------------------------------------------------------
- *  tictactoe-ui2.mjs: Entrypoint for the Tic Tac Toe UI application
+ *  tictactoe-ui.mjs: Entrypoint for the Tic Tac Toe UI application
  *
  *  This file is part of the tictactoe-ui project.
  *
