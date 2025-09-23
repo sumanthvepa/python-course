@@ -1,3 +1,5 @@
+issue04-github-pages-site:
+  Create a github pages site for the repository
 issue003-chapter10-neural-networks-tictactoe:
   Create a self-learning game of tictactoe.
 issue002-chapter5-tictactoe-ui: Create a Jupyter notebook compatible

@@ -1,0 +1,25 @@
+{
+  "name": "python-course-doc",
+  "version": "1.0.0",
+  "description": "Documentation for the Python Course Repository",
+  "keywords": [
+    "Python",
+    "Course",
+    "Documentation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "python-course.git"
+  },
+  "license": "GPL-3.0+",
+  "author": "Sumanth Vepa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "html5-boilerplate": "^9.0.1",
+    "http-server": "^14.1.1"
+  }
+}

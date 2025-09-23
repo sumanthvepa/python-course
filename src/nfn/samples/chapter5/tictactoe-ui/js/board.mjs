@@ -132,9 +132,7 @@ export class Board {
       cell.setAttribute("data-value", Symbols.Blank.name);
       cell.innerHTML = Symbols.Blank.svg;
     }
-    this.allCells().forEach((cell) => {
-      this.clearCell(cell);
-    });
+    this.allCells().forEach((cell) => { clearCell(cell); });
   }
 
   /**

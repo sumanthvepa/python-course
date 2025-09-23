@@ -48,7 +48,7 @@ import { Symbol } from "./symbol.mjs";
  * subclasses that implement the makeMove method, and instantiate
  * those subclasses.
  */
-class Player {
+export class Player {
   #symbol;
 
   /**

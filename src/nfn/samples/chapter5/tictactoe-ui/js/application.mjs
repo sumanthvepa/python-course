@@ -38,6 +38,7 @@
  * along with this program.  If not, see
  * <https://www.gnu.org/licenses/>.
  -------------------------------------------------------------------*/
+import { Symbols } from "./symbol.mjs";
 import { Board } from "./board.mjs";
 import { HumanPlayer } from "./player.mjs";
 import { GameOverModal } from "./game-over-modal.mjs";
