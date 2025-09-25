@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436.25 436.31">
-  <g>
-    <rect class="cross" x="-62.01" y="198.32" width="560" height="40" transform="translate(-90.53 218.09) rotate(-45)"/>
-    <circle class="cross" cx="415.98" cy="20.33" r="20"/>
-    <circle class="cross" cx="20" cy="416.31" r="20"/>
-  </g>
-  <g>
-    <rect class="cross" x="198.26" y="-62.01" width="40" height="560" transform="translate(-90.21 218.18) rotate(-45)"/>
-    <circle class="cross" cx="416.25" cy="415.98" r="20"/>
-    <circle class="cross" cx="20.27" cy="20" r="20"/>
-  </g>
-</svg>
+../../../../../../docs/img/cross.svg
