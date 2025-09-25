@@ -154,8 +154,8 @@ textarea {
   font-family: 'Noto Sans';
   font-weight: normal; /* This is the same as regular */
   font-style: normal;  /* Non-italic */
-  src: url("/css/fonts/NotoSans-Regular.woff2") format("woff2"),
-       url("/css/fonts/NotoSans-Regular.woff") format("woff");
+  src: url("fonts/NotoSans-Regular.woff2") format("woff2"),
+       url("fonts/NotoSans-Regular.woff") format("woff");
 
   /*
     The font-display property controls how the font is displayed while
@@ -184,8 +184,8 @@ textarea {
   font-family: 'Noto Sans';
   font-weight: 500;
   font-style: normal; /* Non-italic */
-  src: url("/css/fonts/NotoSans-Medium.woff2") format("woff2"),
-       url("/css/fonts/NotoSans-Medium.woff") format("woff");
+  src: url("fonts/NotoSans-Medium.woff2") format("woff2"),
+       url("fonts/NotoSans-Medium.woff") format("woff");
   font-display: fallback;
 }
 
