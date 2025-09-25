@@ -1,0 +1,63 @@
+.game {
+  width: 75%;
+} 
+
+.board {
+  background-color: var(--secondary-background-color);
+  aspect-ratio: 1 / 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  gap: 10px;
+}
+
+.cell {
+  background: var(--background-color);
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.cell svg {
+  display: block;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+
+svg .blank {
+  fill: var(--background-color);
+}
+svg .cross {
+  fill: var(--secondary-accent-color);
+}
+svg .nought-outer {
+  fill: var(--secondary-accent-color);
+}
+svg .nought-inner {
+  fill: var(--background-color);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark translucent overlay */
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-active {
+  opacity: 1;
+  visibility: visible;
+}

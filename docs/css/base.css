@@ -350,6 +350,17 @@ h1 {
   margin: 96px 0 36px 0; /* 96px top margin, 0 right margin,
                             24px bottom margin, 0 left margin */
 }
+
+/* Use a hero heading size for the header*/
+header h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  font-size: 9rem; /* 144px */
+  color: var(--primary-accent-color);
+  margin: 96px 0 36px 0; /* 96px top margin, 0 right margin,
+                            24px bottom margin, 0 left margin */
+}
+
 /**
   Define smaller heading sizes for screens with width less than 776px.
   Why 776px? Because that is the width of the text 'Boilerplate' in
@@ -371,6 +382,10 @@ h1 {
   h1 {
     font-size: 2.875rem; /* 104px */
   }
+  /* Reduce the size of the hero heading as well */
+  header h1 { 
+    font-size: 6.5rem; /* 104px */
+  }
 }
 @media(max-width: 600px) {
   /**
@@ -381,6 +396,12 @@ h1 {
    */
   h1 {
     font-size: 1.75rem; /* 80px */
+    margin: 72px 0 24px 0; /* 72px top margin, 0 right margin,
+                            24px bottom margin, 0 left margin */
+  }
+  /* Reduce the size of the hero heading as well */
+  h1 {
+    font-size: 4rem; /* 80px */
     margin: 72px 0 24px 0; /* 72px top margin, 0 right margin,
                             24px bottom margin, 0 left margin */
   }
